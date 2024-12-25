@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import com.atarusov.aston_intensiv_4.databinding.FragmentMainBinding
 import com.atarusov.aston_intensiv_4.task_1.AFragment
+import com.atarusov.aston_intensiv_4.task_2.ui.UsersFragment
 
 class MainFragment : Fragment() {
 
@@ -29,6 +30,14 @@ class MainFragment : Fragment() {
                 replace(R.id.fragment_container, AFragment.newInstance())
                 setReorderingAllowed(true)
                 addToBackStack(AFragment.TAG)
+            }
+        }
+
+        binding.tvTask2.setOnClickListener {
+            parentFragmentManager.commit {
+                replace(R.id.fragment_container, UsersFragment.newInstance())
+                setReorderingAllowed(true)
+                addToBackStack(UsersFragment.TAG)
             }
         }
     }

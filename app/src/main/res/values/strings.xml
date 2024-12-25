@@ -12,4 +12,10 @@
     <string name="task_1_btn_back">Back</string>
     <string name="task_1_fragment_c_title">Message from fragment B:</string>
 
+    <string name="task_2_edit_screen_hint_name">Name</string>
+    <string name="task_2_edit_screen_hint_lastname">Lastname</string>
+    <string name="task_2_edit_screen_hint_phone_number">Phone Number</string>
+    <string name="task_2_edit_screen_btn_save">Save</string>
+    <string name="task_2_edit_screen_btn_cancel">Cancel</string>
+
 </resources>
