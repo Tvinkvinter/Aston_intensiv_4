@@ -1,8 +1,10 @@
 package com.atarusov.aston_intensiv_4.task_2.data
 
 import com.atarusov.aston_intensiv_4.task_2.model.User
+import com.github.javafaker.Faker
 
 object UsersSource {
+    private val faker = Faker()
     val users = mutableListOf<User>()
 
     init {
@@ -10,9 +12,9 @@ object UsersSource {
             users.add(
                 User(
                     id = i.toLong() + 1,
-                    name = "Name ${i + 1}",
-                    lastname = "Lastname ${i + 1}",
-                    phoneNumber = "+${(1..9999999999999).random()}"
+                    name = faker.name().firstName(),
+                    lastname = faker.name().lastName(),
+                    phoneNumber = faker.numerify("+7 (9##) ### ##-##")
                 )
             )
         }
