@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task_1.DFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoSizeMaxTextSize="500sp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="D"
+        android:textColor="@color/yellow_translucent"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_to_fragment_b"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alpha="0.4"
+        android:backgroundTint="@color/black"
+        android:text="@string/task_1_btn_to_fragment_b" />
+
+</FrameLayout>

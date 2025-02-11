@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Aston_intensiv_4</string>
+
+    <string name="main_btn_task_1">Task 1</string>
+    <string name="main_btn_task_2">Task 2</string>
+
+    <string name="task_1_btn_to_fragment_a">To fragment A</string>
+    <string name="task_1_btn_to_fragment_b">To fragment B</string>
+    <string name="task_1_message_from_b_to_c">Hello Fragment C</string>
+    <string name="task_1_btn_to_fragment_c">To fragment C</string>
+    <string name="task_1_btn_to_fragment_d">To fragment D</string>
+    <string name="task_1_btn_back">Back</string>
+    <string name="task_1_fragment_c_title">Message from fragment B:</string>
+
+    <string name="task_2_edit_screen_hint_name">Name</string>
+    <string name="task_2_edit_screen_hint_lastname">Lastname</string>
+    <string name="task_2_edit_screen_hint_phone_number">Phone Number</string>
+    <string name="task_2_edit_screen_btn_save">Save</string>
+    <string name="task_2_edit_screen_btn_cancel">Cancel</string>
+
 </resources>
